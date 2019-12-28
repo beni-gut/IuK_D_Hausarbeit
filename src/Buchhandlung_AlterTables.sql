@@ -13,11 +13,13 @@ ALTER TABLE tInfo ADD UNIQUE (titel);
 ALTER TABLE tInfo ADD UNIQUE (isbn);
 ALTER TABLE tAvailability ADD UNIQUE (verfuegbarkeit);
 
+ALTER TABLE tPublisher ADD FOREIGN KEY (addrId) REFERENCES tAddress(addrId);
 ALTER TABLE tPublisher ADD UNIQUE (verlagsBezeichnung);
-ALTER TABLE tPublisher ADD UNIQUE (telefonnumer);
+ALTER TABLE tPublisher ADD UNIQUE (telefonnummer);
 ALTER TABLE tPublisher ADD UNIQUE (mailadresse);
 ALTER TABLE tPrices ADD UNIQUE (einkaufspreis);
 
+ALTER TABLE tAddress ADD UNIQUE (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand);
 
 ALTER TABLE tPrices ADD CHECK ( einkaufspreis > 0 );
 ALTER TABLE tPrices ADD CHECK ( bestandespreis > 0 );
