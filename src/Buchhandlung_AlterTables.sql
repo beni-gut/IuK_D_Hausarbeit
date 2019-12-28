@@ -1,9 +1,9 @@
 ALTER TABLE tBuch ADD FOREIGN KEY (shTimeId) REFERENCES tShipmentTime(shTimeId);
-ALTER TABLE tBuch ADD FOREIGN KEY (infoId) REFERENCES tInfo(infoId);
 ALTER TABLE tBuch ADD FOREIGN KEY (langId) REFERENCES tLanguage(langId);
-ALTER TABLE tBuch ADD FOREIGN KEY (priceId) REFERENCES tPrices(priceId);
-ALTER TABLE tBuch ADD FOREIGN KEY (publisherId) REFERENCES tPublisher(publisherId);
+ALTER TABLE tBuch ADD FOREIGN KEY (infoId) REFERENCES tInfo(infoId);
 ALTER TABLE tBuch ADD FOREIGN KEY (availableId) REFERENCES tAvailability(availableId);
+ALTER TABLE tBuch ADD FOREIGN KEY (publisherId) REFERENCES tPublisher(publisherId);
+ALTER TABLE tBuch ADD FOREIGN KEY (priceId) REFERENCES tPrices(priceId);
 ALTER TABLE tBuch ADD FOREIGN KEY (placeId) REFERENCES tInventory(placeId);
 
 
@@ -23,13 +23,10 @@ ALTER TABLE tPrices ADD CHECK ( einkaufspreis > 0 );
 ALTER TABLE tPrices ADD CHECK ( bestandespreis > 0 );
 ALTER TABLE tPrices ADD CHECK ( verkaufspreis > 0 );
 
-ALTER TABLE tInventory ADD FOREIGN KEY (storeId) REFERENCES tStore(storeId);
-ALTER TABLE tInventory ADD FOREIGN KEY (storageId) REFERENCES tStorage(storageId);
+ALTER TABLE tInventory ADD CHECK ( storeAnz >= 0 );
+ALTER TABLE tInventory ADD CHECK ( storageAnz >= 0 );
 
-ALTER TABLE tStore ADD CHECK ( anzahl >= 0 );
-ALTER TABLE tStorage ADD CHECK ( anzahl >= 0 );
-
-ALTER TABLE tAuthor ADD UNIQUE (autorName, authorVorname);
+ALTER TABLE tAuthor ADD UNIQUE (authorName, authorVorname);
 
 
 ALTER TABLE tMappingBuchAuthor ADD FOREIGN KEY (buchId) REFERENCES tBuch(buchId);
