@@ -1,3 +1,4 @@
+ALTER TABLE tBuch ADD FOREIGN KEY (shTimeId) REFERENCES tShipmentTime(shTimeId);
 ALTER TABLE tBuch ADD FOREIGN KEY (infoId) REFERENCES tInfo(infoId);
 ALTER TABLE tBuch ADD FOREIGN KEY (langId) REFERENCES tLanguage(langId);
 ALTER TABLE tBuch ADD FOREIGN KEY (priceId) REFERENCES tPrices(priceId);
@@ -6,6 +7,7 @@ ALTER TABLE tBuch ADD FOREIGN KEY (availableId) REFERENCES tAvailability(availab
 ALTER TABLE tBuch ADD FOREIGN KEY (placeId) REFERENCES tInventory(placeId);
 
 
+ALTER TABLE tShipmentTime ADD UNIQUE (lieferfrist);
 ALTER TABLE tLanguage ADD UNIQUE (sprache);
 ALTER TABLE tInfo ADD UNIQUE (titel);
 ALTER TABLE tInfo ADD UNIQUE (isbn);
