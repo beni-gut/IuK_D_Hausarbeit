@@ -128,7 +128,7 @@ INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUE
 INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Maple', '3', '67812', 'Gvgbkl', 'PS');
 INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Myrtle', '33', '162798', 'Klöj Aas', 'GR');
 INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Del Mar', '3', '809132', 'Öljkas', 'EG');
-INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Hudson', '363', '80149', 'Tlkaöl', 'AM', 'DE');
+INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Hudson', '363', '80149', 'Tlkaöl', 'AM');
 INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Saint Paul', '9526', '43560', 'LKéJ Aed', 'IL');
 INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Glendale', '441', '2402', 'Kaneiemä', 'PH');
 INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Fair Oaks', '29857', '128709', 'Mnaikmeu', 'ID');
@@ -146,6 +146,7 @@ INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUE
 INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('School', '92396', '28949', 'Umeunae', 'ID');
 INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Kedzie', '011', '309379', 'Rmzethak', 'RU');
 INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Riverside', '3', '18500-000', 'Zzkasa', 'BR');
+INSERT INTO tAddress (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand) VALUES ('Bad', '32', '1650', 'Würdemberch', 'DE');
 
 
 INSERT INTO tPublisher (addrId, verlagsBezeichnung, telefonnummer, mailadresse, nameKontaktPers, vornameKontaktPers) VALUES (1, 'Feest-Johnson', '+257 (831) 695-8086', 'ealentyev0@spiegel.de', 'Alentyev', 'Ellen');
@@ -239,7 +240,7 @@ INSERT INTO tInventory (storeAnz, storageAnz) VALUES (8, 38);
 INSERT INTO tInventory (storeAnz, storageAnz) VALUES (4, 30);
 INSERT INTO tInventory (storeAnz, storageAnz) VALUES (3, 13);
 INSERT INTO tInventory (storeAnz, storageAnz) VALUES (1, 41);
-INSERT INTO tInventory (storeAnz, storageAnz) VALUES (1, 25);
+INSERT INTO tInventory (storeAnz, storageAnz) VALUES (1, 32);
 INSERT INTO tInventory (storeAnz, storageAnz) VALUES (1, 49);
 INSERT INTO tInventory (storeAnz, storageAnz) VALUES (4, 36);
 
