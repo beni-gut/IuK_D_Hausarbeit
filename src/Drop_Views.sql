@@ -7,3 +7,5 @@ DROP VIEW vWenigBestandOftBestellt;
 DROP VIEW vEinzelAutor;
 DROP VIEW vZwischenschrittEA2;
 DROP VIEW vZwischenschrittEA1;
+DROP VIEW vVerlagMehrereAutoren;
+DROP VIEW vZwischenschrittVMA1;
