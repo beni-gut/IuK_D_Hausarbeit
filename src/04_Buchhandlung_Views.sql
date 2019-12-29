@@ -54,15 +54,15 @@ CREATE VIEW vWenigBestandOftBestellt AS
       AND (tInventory.storeAnz + tInventory.storageAnz) < 5;
 
 /* 7 Alle Bücher eines bestimmten Autoren, die nur er alleine geschrieben hat */
-CREATE VIEW vZwischenschrittEA1 AS
+CREATE VIEW vZwischenschritt1 AS
 	SELECT buchId, count(buchId) 
 	FROM tMappingBuchAuthor
 	GROUP BY buchId;
 
 CREATE VIEW vZwischenschrittEA2 AS
 	SELECT buchId
-	FROM vZwischenschrittEA1
-	WHERE (vZwischenschrittEA1.count = 1);
+	FROM vZwischenschritt1
+	WHERE (vZwischenschritt1.count = 1);
 
 CREATE VIEW vEinzelAutor AS 
 	SELECT tInfo.titel, tLanguage.sprache, tAuthor.authorName || ', ' || tAuthor.authorVorname AS Autor 
@@ -79,8 +79,7 @@ CREATE VIEW vZwischenschrittVMA1 AS
 	FROM tMappingBuchAuthor
 	WHERE buchId >= 1
 	GROUP BY buchId 
-	HAVING count(*) >= 2
-	ORDER BY tMappingBuchAuthor.buchId;
+	HAVING count(buchId) >= 2;
 
 CREATE VIEW vVerlagMehrereAutoren AS
 	SELECT tInfo.titel, tPublisher.verlagsBezeichnung
