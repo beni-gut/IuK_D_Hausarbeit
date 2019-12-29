@@ -17,12 +17,18 @@
 	<div>
 		<h1>Zu beachten</h1>
 		<div>
+			<p>Das ER-Modell ist in der Datei "Hausarbeit_ER.svg" als svg-File hinterlegt.</p>
 			<p>Folgende Reihenfolge ist bei der Ausf&uuml;hrung der Dateien zu beachten:</p>
 			<ol>
-				<li>Buchhandlung_Tables.sql</li>
-				<li>Buchhandlung_AlterTables.sql</li>
-				<li>Buchhandlung_Insertions.sql</li>
-				<li>Buchhandlung_Views.sql</li>
+				<li>01_Buchhandlung_Tables.sql</li>
+				<li>02_Buchhandlung_AlterTables.sql</li>
+				<li>03_Buchhandlung_Insertions.sql</li>
+				<li>04_Buchhandlung_Views.sql</li>
+			</ol>
+			<p>Um die Tabellen und Views wieder zu l&ouml;schen wurden folgende beiden sql Dateien beigef&uuml;gt:</p>
+			<ol>
+				<li>10_Drop_Views.sql</li>
+				<li>11_Drop_Tables.sql</li>
 			</ol>
 		</div>
 	</div>
@@ -70,7 +76,11 @@
 		<div>
 			<h2><code>tInverntory</code></h2>
 			<p>Diese Tabelle wurde erstellt zur einfacheren Wartbarkeit und f&uuml;r schnellere Zugriffe und &Auml;nderungen, ohne die gesamte Datenbank zu sperren.</p>
-			<p>Momentan k&ouml;nnten noch Duplikate entstehen in dieser Tabelle.</p>
+		</div>
+		<div>
+			<h2><code>tBestellungen</code></h2>
+			<p>Da laut der Beschreibung jede Bestellung &uuml;ber den Lieferanten geschieht, sind diese so erstellt worden, dass pro Bestellung nur eine Sorte Buch bestellt werden kann.</p>
+			<p>Es soll m&ouml;glich sein, mehrere Bestellungen des gleichen Produkts an einem Tag zu erstellen.</p>
 		</div>
 		<div>
 			<h2><code>tAuthor</code></h2>
@@ -81,6 +91,12 @@
 			<p>Diese Tabelle entstand aus einer Diskussion mit einem Kommilitonen, welcher mich bei meiner ersten Version darauf aufmerksam machte, dass durch erstellen mehrerer B&uuml;cher, was notwendig war um mehrere Autoren einem Buch hinzuzuf&uuml;gen, lauter Duplikate entstehen w&uuml;rden.</p>
 			<p>Durch die Mapping Tabelle kann nun einfacher einem Buch mehrere Autoren zugewiesen werden.</p>
 			<p>Die beiden Datenfelder sind wieder gemeinsam als <code>UNIQUE</code> gekennzeichnet.</p>
+		</div>
+		<div>
+			<h2>Views</h2>
+			<p>Bei den Views hat es nicht ganz fertig gereicht, die letzte View funktionierte nicht korrekt. Da das ganze zeitlich relativ knapp wurde, wurde die letzte View (alle B&uuml;cher anzeigen lassen von einem Verlag) weggelassen.</p>
+			<p>Alle anderen Views m&uuml;ssten jedoch funktionieren.</p>
+			<p>Zeitlich reicht es nicht mehr f&uuml;r mehr Erkl&auml;rungen, ich stehe jedoch per Mail gerne zur Verf&uuml;gung <a href="mailto:benjamin.gut@ntb.ch">Benjamin Gut</a></p>
 		</div>
 	</div>
 

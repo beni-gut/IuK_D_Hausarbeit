@@ -74,17 +74,3 @@ CREATE VIEW vEinzelAutor AS
 	  AND tMappingBuchAuthor.authorId = tAuthor.authorId;
 
 /* 8 Alle Bücher eines Verlags, der nur Bücher von mehreren Autoren hat */
-CREATE VIEW vZwischenschrittVMA1 AS
-	SELECT buchId 
-	FROM tMappingBuchAuthor
-	WHERE buchId >= 1
-	GROUP BY buchId 
-	HAVING count(buchId) >= 2;
-
-CREATE VIEW vVerlagMehrereAutoren AS
-	SELECT tInfo.titel, tPublisher.verlagsBezeichnung
-	FROM tInfo, tPublisher, tBuch, vZwischenschrittVMA1
-	WHERE tBuch.infoId = tInfo.infoId 
-	  AND tBuch.publisherId = tPublisher.publisherId
-	  AND tBuch.buchId = vZwischenschrittVMA1.buchId;
-
