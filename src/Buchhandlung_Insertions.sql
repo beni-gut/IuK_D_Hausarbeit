@@ -233,19 +233,19 @@ INSERT INTO tAuthor (authorName, authorVorname) VALUES ('Fussen', 'Ginevra');
 
 
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (20, 1, 1, 2, 8, 1, 1);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (19, 9, 2, 2, 17, 2, 2);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (30, 7, 3, 2, 18, 3, 3);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (19, 9, 2, 2, 1, 2, 2);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (30, 7, 3, 2, 13, 3, 3);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (25, 24, 4, 2, 13, 4, 4);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (10, 24, 5, 2, 5, 5, 5);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (16, 24, 6, 2, 6, 6, 6);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (29, 7, 7, 2, 11, 7, 7);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 9, 7, 8, 2, 19, 8, 8);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 9, 9, 9, 2, 11, 9, 9);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (9, 7, 8, 2, 15, 8, 8);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (9, 9, 9, 2, 11, 9, 9);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (13, 9, 10, 2, 8, 10, 10);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (30, 25, 11, 2, 14, 11, 11);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 4, 17, 12, 2, 20, 12, 12);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (28, 28, 13, 2, 23, 13, 13);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (30, 8, 14, 2, 20, 14, 14);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (4, 17, 12, 2, 12, 12, 12);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (28, 28, 13, 2, 13, 13, 13);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (30, 8, 14, 2, 10, 14, 14);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (14, 21, 15, 2, 11, 15, 15);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (18, 9, 16, 2, 13, 16, 16);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (10, 14, 17, 2, 3, 17, 17);
@@ -254,16 +254,16 @@ INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, 
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (12, 18, 20, 2, 9, 20, 20);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (28, 29, 21, 2, 5, 21, 21);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (18, 8, 22, 2, 1, 22, 22);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (12, 19, 23, 2, 27, 23, 23);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (12, 19, 23, 2, 7, 23, 23);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (23, 6, 24, 2, 8, 24, 24);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 7, 10, 25, 2, 23, 25, 25);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (7, 10, 25, 2, 3, 25, 25);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (23, 4, 26, 2, 1, 26, 26);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (25, 23, 27, 2, 5, 27, 27);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (16, 18, 28, 2, 2, 28, 28);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (13, 28, 29, 2, 19, 29, 29);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 3, 11, 30, 2, 6, 30, 30);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 6, 1, 31, 1, 12, 31, 31);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 5, 1, 32, 1, 10, 32, 32);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (13, 28, 29, 2, 9, 29, 29);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (3, 11, 30, 2, 6, 30, 30);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (6, 1, 31, 1, 2, 31, 31);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (5, 1, 32, 1, 4, 32, 32);
 
 
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (4, 19);
@@ -286,6 +286,7 @@ INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (9, 21);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (12, 27);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (28, 29);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (31, 14);
+INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (10, 2);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (23, 20);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (13, 17);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (28, 13);
