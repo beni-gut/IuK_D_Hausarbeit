@@ -27,9 +27,9 @@ ALTER TABLE tPrices ADD CHECK ( verkaufspreis > 0 );
 
 ALTER TABLE tInventory ADD CHECK ( storeAnz >= 0 );
 ALTER TABLE tInventory ADD CHECK ( storageAnz >= 0 );
+ALTER TABLE tInventory ADD UNIQUE (storeAnz, storageAnz);
 
 ALTER TABLE tAuthor ADD UNIQUE (authorName, authorVorname);
-
 
 ALTER TABLE tMappingBuchAuthor ADD FOREIGN KEY (buchId) REFERENCES tBuch(buchId);
 ALTER TABLE tMappingBuchAuthor ADD FOREIGN KEY (authorId) REFERENCES tAuthor(authorId);
