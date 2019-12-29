@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Buchhandlung</title>
+	<style type="text/css">
+		* {font-family: sans-serif;}
+		body {padding-top: 1em; padding-left: 1em;}
+		ol {margin-top: .2em; margin-bottom: 0;}
+		h1 {margin-top: 1em;}
+		h2 {margin-bottom: .1em; font-size: 1.2em;}
+		p {margin: 0;}
+		code {background-color: lightgray;}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Zu beachten</h1>
+		<div>
+			<p>Folgende Reihenfolge ist bei der Ausf&uuml;hrung der Dateien zu beachten:</p>
+			<ol>
+				<li>Buchhandlung_Tables.sql</li>
+				<li>Buchhandlung_AlterTables.sql</li>
+				<li>Buchhandlung_Insertions.sql</li>
+				<li>Buchhandlung_Views.sql</li>
+			</ol>
+		</div>
+	</div>
+	<div>
+		<h1>&Uuml;berlegungen zur Hausarbeit</h1>
+		<div>Folgende Ideen habe ich mir gemacht:</div>
+		<div>
+			<h2><code>tShipmentTime</code></h2>
+				<p>Falls eine &Auml;nderung des Datentyps stattfinden m&uuml;sste, momentan <code>INTERVAL DAY</code>, kann diese so einfacher vorgenommen werden.</p>
+				<p>Datentyp <code>INTERVAL DAY</code> wurde gew&auml;hlt, um eine allgemeine Anzeige im Zeitformat zu erhalten.</p>
+		</div>
+		<div>
+			<h2><code>tLanguage</code></h2>
+				<p>Einfache Wartbarkeit und Erweiterung der Liste.</p>
+				<p>Separat, da zum Beispiel ein Buch mit gleichem Titel in unterschiedlichen Sprachen sein k&ouml;nnte und man dadurch Redundanzen in einer gemeinsamen Tabelle h&auml;tte.</p>
+		</div>
+		<div>
+			<h2><code>tInfo</code></h2>
+				<p>Theoretisch ist die ISBN von Land, Verleger und Titel abh&auml;ngig, da es bei dem Projekt jedoch nicht um die korrekte Erstellung einer ISBN ging, wurde die ISBN nur vom Titel abh&auml;ngig gemacht.</p>
+				<p>Der <code>titel</code> und die <code>isbn</code> sind voneinander abh&auml;ngig.</p>
+		</div>
+		<div>
+			<h2><code>tAvailability</code></h2>
+			<p>Die Verf&uuml;gbarkeit wurde in eine separate Tabelle verlegt, falls zu einem sp&auml;teren Zeitpunkt der Datentyp ge&auml;ndert werden sollte.</p>
+			<p>Falls man zum Beispiel statt <code>TRUE</code> oder <code>FALSE</code> Informationen im Textformat zur&uuml;geben m&ouml;chte wie "Zurzeit nicht verf&uuml;gbar", "Lieferzeiten verz&ouml;gern sich", "Vergriffen", usw.</p>
+		</div>
+		<div>
+			<h2><code>tPublisher</code></h2>
+			<p>Die Adresse in eine andere Tabelle packen, da es sein k&ouml;nnte, dass der Standort der Verleger, respektive der Kontaktpersonen, der gleiche ist.</p>
+			<p>Der Name h&auml;tte auch in eine separate Tabelle gepackt werden k&ouml;nnen, dies habe ich jedoch als nicht unbedingt notwendig empfunden.</p>
+			<p><code>verlagsBezeichnung</code>, <code>telefonnummer</code> und <code>mailadresse</code> sollen nur einmal, unabh&auml;ngig voneinander, vorkommen, da die Verleger diesbez&uuml;glich sicherlich unterschiedliche Daten haben.</p>
+		</div>
+		<div>
+			<h2><code>tAddress</code></h2>
+			<p>Die Adresse soll als gesamtes einen einmaligen Wert besitzen.</p>
+			<p>Auch hier h&auml;tte man den <code>addrOrt</code> in eine separate Tabelle schreiben k&ouml;nnen und nur von der PLZ abh&auml;ngig machen. Dies wurde jedoch unterlassen, da die PLZ kein <code>INTEGER</code>-Typ ist, sondern ein <code>VARCHAR</code>.</p>
+			<p>Die <code>addrPLZ</code> ist ein <code>VARCHAR</code>, da gewisse Postleitzahlen im Ausland einen Bindestrich oder Abst&auml;nde integriert haben, welche nicht als <code>INTEGER</code> abgespeichert werden k&ouml;nnen.</p>
+		</div>
+		<div>
+			<h2><code>tPrices</code></h2>
+			<p>Der <code>einkaufspreis</code> soll einmalig sein.</p>
+			<p>Die anderen beiden Preise werden w&auml;hrend der Erstellung aus dem Einkaufspreis heraus berechnet. Solange also der Einkaufspreis einmalig ist, m&uuml;ssten auch die beiden anderen Preise einmalig sein.</p>
+			<p><code>bestandespreis</code> und <code>verkaufspreis</code> werden aus dem Einkaufspreis berechnet, da das manuelle Erstellen dieser Preise einen zu hohen Zeitaufwand erfordert h&auml;tte und dies nicht das Ziel der Hausarbeit ist. Weiterhin sehen die Preise so nachvollziehbarer aus, als wenn sie zuf&auml;llig generiert worden w&auml;ren und zum Beispiel der <code>einkaufspreis</code> 12.50 und der <code>verkaufspreis</code> 164.90 gewesen w&auml;re.</p>
+		</div>
+		<div>
+			<h2><code>tInverntory</code></h2>
+			<p>Diese Tabelle wurde erstellt zur einfacheren Wartbarkeit und f&uuml;r schnellere Zugriffe und &Auml;nderungen, ohne die gesamte Datenbank zu sperren.</p>
+			<p>Momentan k&ouml;nnten noch Duplikate entstehen in dieser Tabelle.</p>
+		</div>
+		<div>
+			<h2><code>tAuthor</code></h2>
+			<p>In dieser Tabelle soll ein Autor nur einmal stehen k&ouml;nnen, die beiden Felder <code>authorName</code> und <code>authorVorname</code> sind zusammen als <code>UNIQUE</code> gekennzeichnet.</p>
+		</div>
+		<div>
+			<h2><code>tMappingBuchAuthor</code></h2>
+			<p>Diese Tabelle entstand aus einer Diskussion mit einem Kommilitonen, welcher mich bei meiner ersten Version darauf aufmerksam machte, dass durch erstellen mehrerer B&uuml;cher, was notwendig war um mehrere Autoren einem Buch hinzuzuf&uuml;gen, lauter Duplikate entstehen w&uuml;rden.</p>
+			<p>Durch die Mapping Tabelle kann nun einfacher einem Buch mehrere Autoren zugewiesen werden.</p>
+			<p>Die beiden Datenfelder sind wieder gemeinsam als <code>UNIQUE</code> gekennzeichnet.</p>
+		</div>
+	</div>
+
+</body>
+</html>
