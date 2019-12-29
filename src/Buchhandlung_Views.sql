@@ -1,6 +1,6 @@
 /* 1 Kaufinformationen Titel, Autor, Sprache, Preis */
 CREATE VIEW vKaufinfos AS
-    SELECT tInfo.titel AS Titel, tAuthor.authorName || ', ' || tAuthor.authorVorname AS Autor, tLanguage.sprache AS Sprache, tPrices.verkaufspreis AS Preis
+    SELECT tInfo.titel, tAuthor.authorName || ', ' || tAuthor.authorVorname AS Autor, tLanguage.sprache, tPrices.verkaufspreis AS Preis
     FROM tInfo, tAuthor, tLanguage, tPrices, tMappingBuchAuthor, tBuch
     WHERE tMappingBuchAuthor.authorId = tAuthor.authorId
       AND tMappingBuchAuthor.buchId = tBuch.buchId
@@ -35,7 +35,7 @@ CREATE VIEW vBestandeswert AS
 
 /* 5 Bestellungen die über der Lieferfrist sind */
 CREATE VIEW vLieferfristUeberschritten AS
-    SELECT tInfo.titel, tBestellungen.bestellMenge, tBestellungen.bestellDatum, (tBestellungen.bestellDatum + tShipmentTime.lieferfrist < current_date) AS anzahlUeberschritteneTage
+    SELECT tInfo.titel, tBestellungen.bestellMenge, tBestellungen.bestellDatum, tShipmentTime.lieferfrist, current_date - (tBestellungen.bestellDatum + tShipmentTime.lieferfrist) AS anzahlUeberschritteneTage
     FROM tInfo, tBestellungen, tShipmentTime, tBuch
     WHERE tBuch.infoId = tInfo.infoId
       AND tBestellungen.buchId = tBuch.buchId
@@ -45,14 +45,19 @@ CREATE VIEW vLieferfristUeberschritten AS
 /* 6 Bestände unter 5 von Büchern die in den letzten 30 Tagen mehr als einmal nachbestellt wurden */
 CREATE VIEW vWenigBestandOftBestellt AS
     SELECT tInfo.titel, tBestellungen.bestellMenge, tBestellungen.bestellDatum, (tInventory.storeAnz + tInventory.storageAnz) AS Bestandesmenge
-    FROM tInfo, tBestellungen, tInventory, tBuch, tShipmentTime
+    FROM tInfo, tBestellungen, tInventory, tBuch
     WHERE tBuch.infoId = tInfo.infoId
+      AND tBestellungen.buchId = tBuch.buchId
+      AND tBuch.placeId = tInventory.placeId
       AND tBestellungen.bestellDatum + INTERVAL '30' DAY > current_date 
       AND tBestellungen.bestellDatum < current_date
       AND (tInventory.storeAnz + tInventory.storageAnz) < 5;
 
 /* 7 Alle Bücher eines bestimmten Autoren, die nur er alleine geschrieben hat */
-
+CREATE VIEW vEinzelAutor AS 
+	SELECT DISTINCT ON(tBuch.infoId) tInfo.titel, tAuthor.authorName || ', ' || tAuthor.authorVorname AS Autor, 
+	FROM tBuch, tInfo, tAuthor
+	WHERE tBuch.infoId = tInfo.infoId
 
 /* 8 Alle Bücher eines Verlags, der nur Bücher von mehreren Autoren hat */
 
