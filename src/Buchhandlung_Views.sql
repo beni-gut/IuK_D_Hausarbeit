@@ -1,6 +1,6 @@
 /* 1 Kaufinformationen Titel, Autor, Sprache, Preis */
 CREATE VIEW vKaufinfos AS
-    SELECT tInfo.titel, tAuthor.authorName, tAuthor.authorVorname, tLanguage.sprache, tPrices.verkaufspreis
+    SELECT tInfo.titel, tAuthor.authorName || ', ' || tAuthor.authorVorname, tLanguage.sprache, tPrices.verkaufspreis
     FROM tInfo, tAuthor, tLanguage, tPrices, tMappingBuchAuthor, tBuch
     WHERE tMappingBuchAuthor.authorId = tAuthor.authorId AND tMappingBuchAuthor.buchId = tBuch.buchId AND tBuch.infoId = tInfo.infoId AND tBuch.langId = tLanguage.langId AND tBuch.priceId = tPrices.priceId;
 
