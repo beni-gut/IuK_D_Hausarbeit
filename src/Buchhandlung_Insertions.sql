@@ -112,6 +112,8 @@ INSERT INTO tInfo (titel, isbn) VALUES ('Prairie Love', '535072000-7');
 INSERT INTO tInfo (titel, isbn) VALUES ('Cannibal Holocaust', '680577565-5');
 INSERT INTO tInfo (titel, isbn) VALUES ('Disco Pigs', '705806475-X');
 INSERT INTO tInfo (titel, isbn) VALUES ('Cold Fever (Á köldum klaka)', '296795016-5');
+INSERT INTO tInfo (titel, isbn) VALUES ('Hell Drivers', '091853009-1');
+INSERT INTO tInfo (titel, isbn) VALUES ('Wittgenstein', '155056258-4');
 
 INSERT INTO tAvailability (availableId, verfuegbarkeit) VALUES (1, FALSE);
 INSERT INTO tAvailability (availableId, verfuegbarkeit) VALUES (2, TRUE);
@@ -211,6 +213,8 @@ INSERT INTO tPrices (einkaufspreis, bestandespreis, verkaufspreis) VALUES ('106.
 INSERT INTO tPrices (einkaufspreis, bestandespreis, verkaufspreis) VALUES ('181.95', '175.25', '194.75');
 INSERT INTO tPrices (einkaufspreis, bestandespreis, verkaufspreis) VALUES ('135.05', '130.15', '155.45');
 INSERT INTO tPrices (einkaufspreis, bestandespreis, verkaufspreis) VALUES ('93.30', '82.25', '95.05');
+INSERT INTO tPrices (einkaufspreis, bestandespreis, verkaufspreis) VALUES ('136.55', '102.75', '175.15');
+INSERT INTO tPrices (einkaufspreis, bestandespreis, verkaufspreis) VALUES ('3.95', '2.25', '14.75');
 
 
 INSERT INTO tInventory (storeAnz, storageAnz) VALUES (10, 28);
@@ -243,7 +247,8 @@ INSERT INTO tInventory (storeAnz, storageAnz) VALUES (1, 41);
 INSERT INTO tInventory (storeAnz, storageAnz) VALUES (1, 32);
 INSERT INTO tInventory (storeAnz, storageAnz) VALUES (1, 49);
 INSERT INTO tInventory (storeAnz, storageAnz) VALUES (4, 36);
-
+INSERT INTO tInventory (storeAnz, storageAnz) VALUES (0, 1);
+INSERT INTO tInventory (storeAnz, storageAnz) VALUES (1, 2);
 
 INSERT INTO tAuthor (authorName, authorVorname) VALUES ('Grinyov', 'Melloney');
 INSERT INTO tAuthor (authorName, authorVorname) VALUES ('Haps', 'Kylie');
@@ -283,17 +288,17 @@ INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, 
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (25, 24, 8, 2, 13, 4, 4);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (10, 24, 42, 2, 5, 5, 5);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (16, 24, 29, 2, 6, 6, 6);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (29, 7, 24, 1, 11, 7, 7);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (29, 7, 24, 2, 11, 7, 7);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 9, 7, 34, 2, 19, 8, 8);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 9, 9, 36, 2, 11, 9, 9);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (13, 9, 14, 2, 8, 10, 10);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (30, 25, 13, 2, 22, 11, 11);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 4, 17, 49, 1, 20, 12, 12);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 4, 17, 49, 2, 20, 12, 12);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (28, 28, 2, 2, 23, 13, 13);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (30, 8, 19, 2, 20, 14, 14);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (14, 21, 21, 2, 16, 15, 15);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (18, 9, 11, 2, 24, 16, 16);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (10, 14, 12, 1, 30, 17, 17);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (10, 14, 12, 2, 30, 17, 17);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (14, 28, 8, 2, 15, 18, 18);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (30, 22, 9, 2, 7, 19, 19);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (12, 18, 45, 2, 9, 20, 20);
@@ -304,9 +309,11 @@ INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, 
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 7, 10, 7, 2, 23, 25, 25);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (23, 4, 50, 2, 16, 26, 26);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (25, 23, 23, 2, 30, 27, 27);
-INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (16, 18, 35, 1, 2, 28, 28);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (16, 18, 35, 2, 2, 28, 28);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES (13, 28, 37, 2, 19, 29, 29);
 INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 3, 11, 10, 2, 24, 30, 30);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 6, 1, 32, 1, 24, 31, 31);
+INSERT INTO tBuch (shTimeId, langId, infoId, availableId, publisherId, priceId, placeId) VALUES ( 5, 1, 31, 1, 29, 32, 32);
 
 
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (4, 19);
@@ -326,6 +333,7 @@ INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (12, 9);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (8, 3);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (12, 27);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (28, 29);
+INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (31, 14);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (23, 20);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (13, 17);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (28, 13);
@@ -353,7 +361,62 @@ INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (26, 9);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (2, 12);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (26, 18);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (27, 2);
+INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (27, 9);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (28, 11);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (29, 19);
 INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (30, 23);
+INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (32, 3);
+INSERT INTO tMappingBuchAuthor (buchId, authorId) VALUES (32, 23);
+
+
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (16, '2019-12-15 09:57:39', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (8, '2019-11-02 18:56:57', 7);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (17, '2019-11-17 00:05:38', 2);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (13, '2019-12-15 21:14:00', 10);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (3, '2019-12-18 12:43:19', 10);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (15, '2019-11-12 15:40:23', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (8, '2019-12-01 00:11:50', 9);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (16, '2019-12-04 05:45:57', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (7, '2019-12-19 10:34:33', 4);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (10, '2019-11-21 10:26:46', 2);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (24, '2019-12-02 04:18:09', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (1, '2019-12-03 04:18:50', 7);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (16, '2019-11-14 08:30:28', 9);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (26, '2019-12-06 03:02:42', 10);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (11, '2019-12-20 08:04:10', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (26, '2019-12-03 15:35:10', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (4, '2019-12-01 05:19:19', 8);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (15, '2019-12-13 03:26:40', 5);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (18, '2019-11-29 17:08:37', 2);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (5, '2019-11-19 15:36:57', 3);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (21, '2019-12-02 20:22:01', 2);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (5, '2019-11-03 03:07:47', 9);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (15, '2019-12-03 13:42:16', 7);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (11, '2019-12-15 02:11:04', 10);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (2, '2019-12-17 00:33:58', 9);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (24, '2019-12-19 20:43:58', 10);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (2, '2019-11-24 02:48:18', 8);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (7, '2019-11-01 03:26:11', 2);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (14, '2019-11-26 17:57:14', 8);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (14, '2019-11-18 02:26:01', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (31, '2019-12-19 16:36:25', 8);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (5, '2019-11-23 11:30:18', 5);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (14, '2019-12-20 10:50:17', 9);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (32, '2019-12-20 21:44:37', 10);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (31, '2019-12-03 15:09:29', 4);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (8, '2019-12-07 07:17:31', 8);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (24, '2019-11-15 04:58:28', 4);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (7, '2019-12-28 10:46:12', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (24, '2019-12-26 00:38:10', 8);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (28, '2019-11-06 07:41:45', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (14, '2019-11-04 21:57:57', 5);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (7, '2019-11-30 08:48:51', 5);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (11, '2019-11-06 02:00:24', 5);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (32, '2019-12-22 20:20:13', 6);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (14, '2019-12-17 15:44:13', 4);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (16, '2019-11-16 04:05:12', 4);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (10, '2019-11-25 17:54:41', 4);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (27, '2019-12-03 20:23:13', 7);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (23, '2019-11-24 07:36:23', 5);
+INSERT INTO tBestellungen (buchId, bestellDatum, bestellMenge) VALUES (23, '2019-11-27 20:34:18', 2);
 

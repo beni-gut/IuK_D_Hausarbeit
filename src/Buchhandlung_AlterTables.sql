@@ -17,7 +17,7 @@ ALTER TABLE tPublisher ADD FOREIGN KEY (addrId) REFERENCES tAddress(addrId);
 ALTER TABLE tPublisher ADD UNIQUE (verlagsBezeichnung);
 ALTER TABLE tPublisher ADD UNIQUE (telefonnummer);
 ALTER TABLE tPublisher ADD UNIQUE (mailadresse);
-ALTER TABLE tPrices ADD UNIQUE (einkaufspreis);
+ALTER TABLE tPrices ADD UNIQUE (einkaufspreis, bestandespreis, verkaufspreis);
 
 ALTER TABLE tAddress ADD UNIQUE (addrStrasse, addrNummer, addrPLZ, addrOrt, addrLand);
 
@@ -35,3 +35,5 @@ ALTER TABLE tMappingBuchAuthor ADD FOREIGN KEY (buchId) REFERENCES tBuch(buchId)
 ALTER TABLE tMappingBuchAuthor ADD FOREIGN KEY (authorId) REFERENCES tAuthor(authorId);
 ALTER TABLE tMappingBuchAuthor ADD UNIQUE (buchId, authorId);
 
+ALTER TABLE tBestellungen ADD FOREIGN KEY (buchId) REFERENCES tBuch(buchId);
+ALTER TABLE tBestellungen ADD CHECK ( bestellDatum < current_date );

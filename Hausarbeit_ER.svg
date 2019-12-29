@@ -1,545 +1,595 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1465.3193359375" height="815">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1465.3193359375" height="934">
 	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="767" y="223" width="174.90087890625" height="150" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="760" y="216" width="174.90087890625" height="150"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 760 216 L 934.90087890625 216 L 934.90087890625 366 L 760 366 L 760 216 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 760 239 L 934.90087890625 239" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 788.05908203125 239 L 788.05908203125 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 868.1181640625 239 L 868.1181640625 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="830.8291015625" y="233.5">tBuch</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="257">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="257">buchId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="257">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="256.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="272">FK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="272">shTimeId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="272">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="271.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="287">FK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="287">langId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="287">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="286.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="302">FK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="302">infoId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="302">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="301.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="317">FK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="317">availableId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="317">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="316.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="332">FK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="332">publisherId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="332">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="331.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="347">FK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="347">priceId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="347">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="346.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="362">FK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="362">placeId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="362">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="361.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="1295" y="255" width="229.3193359375" height="75" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="1288" y="248" width="229.3193359375" height="75"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1288 248 L 1517.3193359375 248 L 1517.3193359375 323 L 1288 323 L 1288 248 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1288 271 L 1517.3193359375 271" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1316.05908203125 271 L 1316.05908203125 323" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1421.166015625 271 L 1421.166015625 323" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="1381.702880859375" y="265.5">tAuthor</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="289">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1321.05908203125" y="289">authorId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1426.166015625" y="289">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="288.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="304">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1321.05908203125" y="304">authorName</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1426.166015625" y="304">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="303.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="319">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1321.05908203125" y="319">authorVorname</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1426.166015625" y="319">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="318.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="1039" y="263" width="169.4990234375" height="60" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="1032" y="256" width="169.4990234375" height="60"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1032 256 L 1201.4990234375 256 L 1201.4990234375 316 L 1032 316 L 1032 256 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1032 279 L 1201.4990234375 279" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1072.3291015625 279 L 1072.3291015625 316" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1134.32275390625 279 L 1134.32275390625 316" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="1056.043701171875" y="273.5">tMappingBuchAuthor</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1037" y="297">FK,U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1077.3291015625" y="297">buchId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1139.32275390625" y="297">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1037" y="296.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1037" y="312">FK,U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1077.3291015625" y="312">authorId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1139.32275390625" y="312">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1037" y="311.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1288 286 L 1201 286" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1215 286 L 1201 279" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1215 286 L 1201 293" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 1216 286 C 1216 282.1340064 1219.1340064 279 1223 279 C 1226.8659936 279 1230 282.1340064 1230 286 C 1230 289.8659936 1226.8659936 293 1223 293 C 1219.1340064 293 1216 289.8659936 1216 286 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1216 286 C 1216 282.1340064 1219.1340064 279 1223 279 C 1226.8659936 279 1230 282.1340064 1230 286 C 1230 289.8659936 1226.8659936 293 1223 293 C 1219.1340064 293 1216 289.8659936 1216 286 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1281 293 L 1281 279" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1274 293 L 1274 279" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1261.5" y="306.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1225.5" y="306.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 935 286 L 1032 286" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1018 286 L 1032 293" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1018 286 L 1032 279" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 1003 286 C 1003 282.1340064 1006.1340064 279 1010 279 C 1013.8659936 279 1017 282.1340064 1017 286 C 1017 289.8659936 1013.8659936 293 1010 293 C 1006.1340064 293 1003 289.8659936 1003 286 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1003 286 C 1003 282.1340064 1006.1340064 279 1010 279 C 1013.8659936 279 1017 282.1340064 1017 286 C 1017 289.8659936 1013.8659936 293 1010 293 C 1006.1340064 293 1003 289.8659936 1003 286 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 942 279 L 942 293" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 949 279 L 949 293" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="959.5" y="277.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1005.5" y="277.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="415" y="127" width="197.5556640625" height="60" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="408" y="120" width="197.5556640625" height="60"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 408 120 L 605.5556640625 120 L 605.5556640625 180 L 408 180 L 408 120 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 408 143 L 605.5556640625 143" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 436.05908203125 143 L 436.05908203125 180" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 502.8896484375 143 L 502.8896484375 180" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="463.30908203125" y="137.5">tShipmentTime</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="161">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="441.05908203125" y="161">shTimeId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="507.8896484375" y="161">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="160.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="176">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="441.05908203125" y="176">lieferfrist</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="507.8896484375" y="176">INTERVAL DAY</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="175.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="423" y="231" width="184.0732421875" height="60" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="416" y="224" width="184.0732421875" height="60"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 416 224 L 600.0732421875 224 L 600.0732421875 284 L 416 284 L 416 224 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 416 247 L 600.0732421875 247" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 444.05908203125 247 L 444.05908203125 284" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 503.919921875 247 L 503.919921875 284" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="477.310791015625" y="241.5">tLanguage</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="265">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="449.05908203125" y="265">langId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="508.919921875" y="265">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="264.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="280">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="449.05908203125" y="280">sprache</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="508.919921875" y="280">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="279.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="439" y="343" width="143.10546875" height="75" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="432" y="336" width="143.10546875" height="75"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 432 336 L 575.10546875 336 L 575.10546875 411 L 432 411 L 432 336 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 432 359 L 575.10546875 359" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 460.05908203125 359 L 460.05908203125 411" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 505.4345703125 359 L 505.4345703125 411" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="490.905029296875" y="353.5">tInfo</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="377">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="465.05908203125" y="377">infoId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="510.4345703125" y="377">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="376.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="392">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="465.05908203125" y="392">titel</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="510.4345703125" y="392">TEXT</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="391.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="407">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="465.05908203125" y="407">isbn</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="510.4345703125" y="407">CHAR(13)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="406.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="415" y="455" width="201.64990234375" height="60" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="408" y="448" width="201.64990234375" height="60"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 408 448 L 609.64990234375 448 L 609.64990234375 508 L 408 508 L 408 448 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 408 471 L 609.64990234375 471" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 436.05908203125 471 L 436.05908203125 508" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 535.64990234375 471 L 535.64990234375 508" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="476.4296875" y="465.5">tAvailability</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="489">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="441.05908203125" y="489">availableId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="540.64990234375" y="489">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="488.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="504">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="441.05908203125" y="504">verfuegbarkeit</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="540.64990234375" y="504">BOOLEAN</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="503.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="383" y="559" width="264.98046875" height="135" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="376" y="552" width="264.98046875" height="135"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 376 552 L 640.98046875 552 L 640.98046875 687 L 376 687 L 376 552 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 376 575 L 640.98046875 575" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 404.05908203125 575 L 404.05908203125 687" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 544.8271484375 575 L 544.8271484375 687" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="479.586181640625" y="569.5">tPublisher</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="593">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="593">publisherId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="593">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="592.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="608">FK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="608">addrId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="608">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="607.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="623">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="623">verlagsBezeichnung</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="623">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="622.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="638">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="638">telefonnummer</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="638">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="637.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="653">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="653">mailadresse</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="653">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="652.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="668"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="668">nameKontaktPers</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="668">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="667.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="683"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="683">vornameKontaktPers</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="683">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="682.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="399" y="727" width="233.43896484375" height="90" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="392" y="720" width="233.43896484375" height="90"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 392 720 L 625.43896484375 720 L 625.43896484375 810 L 392 810 L 392 720 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 392 743 L 625.43896484375 743" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 420.05908203125 743 L 420.05908203125 810" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 525.4326171875 743 L 525.4326171875 810" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="488.8544921875" y="737.5">tPrices</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="761">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="425.05908203125" y="761">priceId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="530.4326171875" y="761">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="760.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="776">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="425.05908203125" y="776">einkaufspreis</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="530.4326171875" y="776">NUMERIC(5,2)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="775.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="791"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="425.05908203125" y="791">bestandespreis</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="530.4326171875" y="791">NUMERIC(5,2)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="790.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="806"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="425.05908203125" y="806">verkaufspreis</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="530.4326171875" y="806">NUMERIC(5,2)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="805.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="431" y="847" width="175.630859375" height="75" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="424" y="840" width="175.630859375" height="75"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 424 840 L 599.630859375 840 L 599.630859375 915 L 424 915 L 424 840 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 424 863 L 599.630859375 863" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 452.05908203125 863 L 452.05908203125 915" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 532.84814453125 863 L 532.84814453125 915" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="483.273193359375" y="857.5">tInventory</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="881">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="457.05908203125" y="881">placeId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="537.84814453125" y="881">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="880.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="896"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="457.05908203125" y="896">storeAnz</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="537.84814453125" y="896">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="895.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="911"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="457.05908203125" y="911">storageAnz</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="537.84814453125" y="911">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="910.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 600 877 L 872 877 M 872 877 A 8 8 0 0 0 880 869 L 880 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 880 380 L 887 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 880 380 L 873 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 873 388 C 873 384.1340064 876.1340064 381 880 381 C 883.8659936 381 887 384.1340064 887 388 C 887 391.8659936 883.8659936 395 880 395 C 876.1340064 395 873 391.8659936 873 388 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 873 388 C 873 384.1340064 876.1340064 381 880 381 C 883.8659936 381 887 384.1340064 887 388 C 887 391.8659936 883.8659936 395 880 395 C 876.1340064 395 873 391.8659936 873 388 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 607 870 L 607 884" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 614 870 L 614 884" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="624.5" y="868.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="864.5" y="397.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 625 765 L 840 765 M 840 765 A 8 8 0 0 0 848 757 L 848 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 848 380 L 855 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 848 380 L 841 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 841 388 C 841 384.1340064 844.1340064 381 848 381 C 851.8659936 381 855 384.1340064 855 388 C 855 391.8659936 851.8659936 395 848 395 C 844.1340064 395 841 391.8659936 841 388 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 841 388 C 841 384.1340064 844.1340064 381 848 381 C 851.8659936 381 855 384.1340064 855 388 C 855 391.8659936 851.8659936 395 848 395 C 844.1340064 395 841 391.8659936 841 388 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 632 758 L 632 772" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 639 758 L 639 772" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="649.5" y="756.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="832.5" y="397.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 641 619 L 800 619 M 800 619 A 8 8 0 0 0 808 611 L 808 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 808 380 L 815 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 808 380 L 801 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 801 388 C 801 384.1340064 804.1340064 381 808 381 C 811.8659936 381 815 384.1340064 815 388 C 815 391.8659936 811.8659936 395 808 395 C 804.1340064 395 801 391.8659936 801 388 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 801 388 C 801 384.1340064 804.1340064 381 808 381 C 811.8659936 381 815 384.1340064 815 388 C 815 391.8659936 811.8659936 395 808 395 C 804.1340064 395 801 391.8659936 801 388 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 648 612 L 648 626" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 655 612 L 655 626" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="665.5" y="610.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="792.5" y="397.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 606 150 L 839 150 M 839 150 A 8 8 0 0 1 847 158 L 847 216" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 847 202 L 840 216" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 847 202 L 854 216" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 840 194 C 840 190.1340064 843.1340064 187 847 187 C 850.8659936 187 854 190.1340064 854 194 C 854 197.8659936 850.8659936 201 847 201 C 843.1340064 201 840 197.8659936 840 194 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 840 194 C 840 190.1340064 843.1340064 187 847 187 C 850.8659936 187 854 190.1340064 854 194 C 854 197.8659936 850.8659936 201 847 201 C 843.1340064 201 840 197.8659936 840 194 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 613 143 L 613 157" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 620 143 L 620 157" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="630.5" y="141.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="861.5" y="196.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 600 254 L 760 254" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 254 L 760 261" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 254 L 760 247" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 731 254 C 731 250.1340064 734.1340064 247 738 247 C 741.8659936 247 745 250.1340064 745 254 C 745 257.8659936 741.8659936 261 738 261 C 734.1340064 261 731 257.8659936 731 254 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 731 254 C 731 250.1340064 734.1340064 247 738 247 C 741.8659936 247 745 250.1340064 745 254 C 745 257.8659936 741.8659936 261 738 261 C 734.1340064 261 731 257.8659936 731 254 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 607 247 L 607 261" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 614 247 L 614 261" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="624.5" y="245.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="733.5" y="245.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 610 478 L 768 478 M 768 478 A 8 8 0 0 0 776 470 L 776 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 776 380 L 783 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 776 380 L 769 366" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 769 388 C 769 384.1340064 772.1340064 381 776 381 C 779.8659936 381 783 384.1340064 783 388 C 783 391.8659936 779.8659936 395 776 395 C 772.1340064 395 769 391.8659936 769 388 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 769 388 C 769 384.1340064 772.1340064 381 776 381 C 779.8659936 381 783 384.1340064 783 388 C 783 391.8659936 779.8659936 395 776 395 C 772.1340064 395 769 391.8659936 769 388 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 617 471 L 617 485" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 624 471 L 624 485" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="634.5" y="469.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="760.5" y="397.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 575 355 L 760 355" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 355 L 760 362" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 355 L 760 348" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 731 355 C 731 351.1340064 734.1340064 348 738 348 C 741.8659936 348 745 351.1340064 745 355 C 745 358.8659936 741.8659936 362 738 362 C 734.1340064 362 731 358.8659936 731 355 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 731 355 C 731 351.1340064 734.1340064 348 738 348 C 741.8659936 348 745 351.1340064 745 355 C 745 358.8659936 741.8659936 362 738 362 C 734.1340064 362 731 358.8659936 731 355 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 582 348 L 582 362" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 589 348 L 589 362" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="599.5" y="346.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="733.5" y="346.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="79" y="567" width="215.11962890625" height="120" opacity="0.2"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="72" y="560" width="215.11962890625" height="120"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 72 560 L 287.11962890625 560 L 287.11962890625 680 L 72 680 L 72 560 Z Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 72 583 L 287.11962890625 583" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 100.05908203125 583 L 100.05908203125 680" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 190.96630859375 583 L 190.96630859375 680" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="153.908935546875" y="577.5">tAddress</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="601">PK</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="601">addrId</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="601">INTEGER</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="600.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="616">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="616">addrStrasse</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="616">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="615.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="631">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="631">addrNummer</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="631">INTEGER(5)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="630.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="646">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="646">addrPLZ</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="646">VARCHAR(10)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="645.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="661">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="661">addrOrt</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="661">VARCHAR(20)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="660.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="676">U</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="676">addrLand</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="676">CHAR(2)</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="675.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 287 620 L 376 620" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 362 620 L 376 627" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 362 620 L 376 613" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 347 620 C 347 616.1340064 350.1340064 613 354 613 C 357.8659936 613 361 616.1340064 361 620 C 361 623.8659936 357.8659936 627 354 627 C 350.1340064 627 347 623.8659936 347 620 Z"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 347 620 C 347 616.1340064 350.1340064 613 354 613 C 357.8659936 613 361 616.1340064 361 620 C 361 623.8659936 357.8659936 627 354 627 C 350.1340064 627 347 623.8659936 347 620 Z" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 294 613 L 294 627" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 301 613 L 301 627" stroke-miterlimit="10"/></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="311.5" y="611.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="349.5" y="611.5"></text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="997" y="474">Glossar</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="997" y="489">PK: PRIMARY KEY</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="997" y="504">FK: FOREIGN KEY</text></g></g>
-	<g transform="translate(-62,-110) scale(1,1)">
-		<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="997" y="519">U: UNIQUE</text>
-	</g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="760" y="216" width="174.90087890625" height="150"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 760 216 L 934.90087890625 216 L 934.90087890625 366 L 760 366 L 760 216 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 760 239 L 934.90087890625 239" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 788.05908203125 239 L 788.05908203125 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 868.1181640625 239 L 868.1181640625 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="830.8291015625" y="233.5">tBuch</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="257">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="257">buchId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="257">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="256.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="272">FK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="272">shTimeId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="272">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="271.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="287">FK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="287">langId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="287">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="286.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="302">FK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="302">infoId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="302">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="301.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="317">FK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="317">availableId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="317">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="316.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="332">FK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="332">publisherId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="332">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="331.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="347">FK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="347">priceId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="347">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="346.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="362">FK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="793.05908203125" y="362">placeId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="873.1181640625" y="362">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="765" y="361.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="1295" y="255" width="229.3193359375" height="75" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="1288" y="248" width="229.3193359375" height="75"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1288 248 L 1517.3193359375 248 L 1517.3193359375 323 L 1288 323 L 1288 248 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1288 271 L 1517.3193359375 271" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1316.05908203125 271 L 1316.05908203125 323" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1421.166015625 271 L 1421.166015625 323" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="1381.702880859375" y="265.5">tAuthor</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="289">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1321.05908203125" y="289">authorId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1426.166015625" y="289">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="288.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="304">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1321.05908203125" y="304">authorName</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1426.166015625" y="304">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="303.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="319">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1321.05908203125" y="319">authorVorname</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1426.166015625" y="319">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1293" y="318.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="1039" y="263" width="169.4990234375" height="60" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="1032" y="256" width="169.4990234375" height="60"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1032 256 L 1201.4990234375 256 L 1201.4990234375 316 L 1032 316 L 1032 256 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1032 279 L 1201.4990234375 279" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1072.3291015625 279 L 1072.3291015625 316" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1134.32275390625 279 L 1134.32275390625 316" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="1056.043701171875" y="273.5">tMappingBuchAuthor</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1037" y="297">FK,U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1077.3291015625" y="297">buchId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1139.32275390625" y="297">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1037" y="296.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1037" y="312">FK,U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1077.3291015625" y="312">authorId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1139.32275390625" y="312">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1037" y="311.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1288 286 L 1201 286" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1215 286 L 1201 279" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1215 286 L 1201 293" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 1216 286 C 1216 282.1340064 1219.1340064 279 1223 279 C 1226.8659936 279 1230 282.1340064 1230 286 C 1230 289.8659936 1226.8659936 293 1223 293 C 1219.1340064 293 1216 289.8659936 1216 286 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1216 286 C 1216 282.1340064 1219.1340064 279 1223 279 C 1226.8659936 279 1230 282.1340064 1230 286 C 1230 289.8659936 1226.8659936 293 1223 293 C 1219.1340064 293 1216 289.8659936 1216 286 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1281 293 L 1281 279" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1274 293 L 1274 279" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1261.5" y="306.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1225.5" y="306.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 935 286 L 1032 286" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1018 286 L 1032 293" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1018 286 L 1032 279" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 1003 286 C 1003 282.1340064 1006.1340064 279 1010 279 C 1013.8659936 279 1017 282.1340064 1017 286 C 1017 289.8659936 1013.8659936 293 1010 293 C 1006.1340064 293 1003 289.8659936 1003 286 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 1003 286 C 1003 282.1340064 1006.1340064 279 1010 279 C 1013.8659936 279 1017 282.1340064 1017 286 C 1017 289.8659936 1013.8659936 293 1010 293 C 1006.1340064 293 1003 289.8659936 1003 286 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 942 279 L 942 293" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 949 279 L 949 293" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="959.5" y="277.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="1005.5" y="277.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="415" y="127" width="197.5556640625" height="60" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="408" y="120" width="197.5556640625" height="60"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 408 120 L 605.5556640625 120 L 605.5556640625 180 L 408 180 L 408 120 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 408 143 L 605.5556640625 143" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 436.05908203125 143 L 436.05908203125 180" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 502.8896484375 143 L 502.8896484375 180" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="463.30908203125" y="137.5">tShipmentTime</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="161">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="441.05908203125" y="161">shTimeId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="507.8896484375" y="161">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="160.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="176">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="441.05908203125" y="176">lieferfrist</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="507.8896484375" y="176">INTERVAL DAY</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="175.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="423" y="231" width="184.0732421875" height="60" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="416" y="224" width="184.0732421875" height="60"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 416 224 L 600.0732421875 224 L 600.0732421875 284 L 416 284 L 416 224 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 416 247 L 600.0732421875 247" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 444.05908203125 247 L 444.05908203125 284" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 503.919921875 247 L 503.919921875 284" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="477.310791015625" y="241.5">tLanguage</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="265">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="449.05908203125" y="265">langId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="508.919921875" y="265">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="264.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="280">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="449.05908203125" y="280">sprache</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="508.919921875" y="280">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="279.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="439" y="343" width="143.10546875" height="75" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="432" y="336" width="143.10546875" height="75"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 432 336 L 575.10546875 336 L 575.10546875 411 L 432 411 L 432 336 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 432 359 L 575.10546875 359" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 460.05908203125 359 L 460.05908203125 411" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 505.4345703125 359 L 505.4345703125 411" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="490.905029296875" y="353.5">tInfo</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="377">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="465.05908203125" y="377">infoId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="510.4345703125" y="377">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="376.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="392">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="465.05908203125" y="392">titel</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="510.4345703125" y="392">TEXT</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="391.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="407">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="465.05908203125" y="407">isbn</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="510.4345703125" y="407">CHAR(13)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="437" y="406.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="415" y="455" width="201.64990234375" height="60" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="408" y="448" width="201.64990234375" height="60"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 408 448 L 609.64990234375 448 L 609.64990234375 508 L 408 508 L 408 448 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 408 471 L 609.64990234375 471" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 436.05908203125 471 L 436.05908203125 508" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 535.64990234375 471 L 535.64990234375 508" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="476.4296875" y="465.5">tAvailability</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="489">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="441.05908203125" y="489">availableId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="540.64990234375" y="489">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="488.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="504">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="441.05908203125" y="504">verfuegbarkeit</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="540.64990234375" y="504">BOOLEAN</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="413" y="503.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="383" y="559" width="264.98046875" height="135" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="376" y="552" width="264.98046875" height="135"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 376 552 L 640.98046875 552 L 640.98046875 687 L 376 687 L 376 552 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 376 575 L 640.98046875 575" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 404.05908203125 575 L 404.05908203125 687" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 544.8271484375 575 L 544.8271484375 687" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="479.586181640625" y="569.5">tPublisher</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="593">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="593">publisherId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="593">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="592.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="608">FK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="608">addrId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="608">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="607.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="623">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="623">verlagsBezeichnung</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="623">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="622.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="638">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="638">telefonnummer</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="638">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="637.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="653">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="653">mailadresse</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="653">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="652.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="668"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="668">nameKontaktPers</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="668">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="667.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="683"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="409.05908203125" y="683">vornameKontaktPers</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.8271484375" y="683">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="381" y="682.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="399" y="727" width="233.43896484375" height="90" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="392" y="720" width="233.43896484375" height="90"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 392 720 L 625.43896484375 720 L 625.43896484375 810 L 392 810 L 392 720 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 392 743 L 625.43896484375 743" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 420.05908203125 743 L 420.05908203125 810" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 525.4326171875 743 L 525.4326171875 810" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="488.8544921875" y="737.5">tPrices</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="761">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="425.05908203125" y="761">priceId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="530.4326171875" y="761">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="760.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="776">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="425.05908203125" y="776">einkaufspreis</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="530.4326171875" y="776">NUMERIC(5,2)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="775.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="791">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="425.05908203125" y="791">bestandespreis</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="530.4326171875" y="791">NUMERIC(5,2)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="790.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="806">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="425.05908203125" y="806">verkaufspreis</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="530.4326171875" y="806">NUMERIC(5,2)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="397" y="805.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="431" y="847" width="175.630859375" height="75" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="424" y="840" width="175.630859375" height="75"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 424 840 L 599.630859375 840 L 599.630859375 915 L 424 915 L 424 840 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 424 863 L 599.630859375 863" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 452.05908203125 863 L 452.05908203125 915" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 532.84814453125 863 L 532.84814453125 915" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="483.273193359375" y="857.5">tInventory</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="881">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="457.05908203125" y="881">placeId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="537.84814453125" y="881">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="880.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="896">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="457.05908203125" y="896">storeAnz</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="537.84814453125" y="896">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="895.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="911">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="457.05908203125" y="911">storageAnz</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="537.84814453125" y="911">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="429" y="910.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 600 877 L 872 877 M 872 877 A 8 8 0 0 0 880 869 L 880 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 880 380 L 887 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 880 380 L 873 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 873 388 C 873 384.1340064 876.1340064 381 880 381 C 883.8659936 381 887 384.1340064 887 388 C 887 391.8659936 883.8659936 395 880 395 C 876.1340064 395 873 391.8659936 873 388 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 873 388 C 873 384.1340064 876.1340064 381 880 381 C 883.8659936 381 887 384.1340064 887 388 C 887 391.8659936 883.8659936 395 880 395 C 876.1340064 395 873 391.8659936 873 388 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 607 870 L 607 884" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 614 870 L 614 884" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="624.5" y="868.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="864.5" y="397.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 625 765 L 840 765 M 840 765 A 8 8 0 0 0 848 757 L 848 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 848 380 L 855 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 848 380 L 841 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 841 388 C 841 384.1340064 844.1340064 381 848 381 C 851.8659936 381 855 384.1340064 855 388 C 855 391.8659936 851.8659936 395 848 395 C 844.1340064 395 841 391.8659936 841 388 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 841 388 C 841 384.1340064 844.1340064 381 848 381 C 851.8659936 381 855 384.1340064 855 388 C 855 391.8659936 851.8659936 395 848 395 C 844.1340064 395 841 391.8659936 841 388 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 632 758 L 632 772" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 639 758 L 639 772" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="649.5" y="756.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="832.5" y="397.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 641 619 L 800 619 M 800 619 A 8 8 0 0 0 808 611 L 808 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 808 380 L 815 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 808 380 L 801 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 801 388 C 801 384.1340064 804.1340064 381 808 381 C 811.8659936 381 815 384.1340064 815 388 C 815 391.8659936 811.8659936 395 808 395 C 804.1340064 395 801 391.8659936 801 388 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 801 388 C 801 384.1340064 804.1340064 381 808 381 C 811.8659936 381 815 384.1340064 815 388 C 815 391.8659936 811.8659936 395 808 395 C 804.1340064 395 801 391.8659936 801 388 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 648 612 L 648 626" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 655 612 L 655 626" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="665.5" y="610.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="792.5" y="397.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 606 150 L 672 150 M 672 150 A 8 8 0 0 1 680 158 L 680 240 M 680 240 A 8 8 0 0 0 688 248 L 760 248" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 248 L 760 255" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 248 L 760 241" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 731 248 C 731 244.1340064 734.1340064 241 738 241 C 741.8659936 241 745 244.1340064 745 248 C 745 251.8659936 741.8659936 255 738 255 C 734.1340064 255 731 251.8659936 731 248 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 731 248 C 731 244.1340064 734.1340064 241 738 241 C 741.8659936 241 745 244.1340064 745 248 C 745 251.8659936 741.8659936 255 738 255 C 734.1340064 255 731 251.8659936 731 248 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 613 143 L 613 157" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 620 143 L 620 157" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="630.5" y="141.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="733.5" y="239.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 600 256 L 664 256 M 664 256 A 8 8 0 0 1 672 264 L 672 288 M 672 288 A 8 8 0 0 0 680 296 L 760 296" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 296 L 760 303" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 296 L 760 289" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 731 296 C 731 292.1340064 734.1340064 289 738 289 C 741.8659936 289 745 292.1340064 745 296 C 745 299.8659936 741.8659936 303 738 303 C 734.1340064 303 731 299.8659936 731 296 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 731 296 C 731 292.1340064 734.1340064 289 738 289 C 741.8659936 289 745 292.1340064 745 296 C 745 299.8659936 741.8659936 303 738 303 C 734.1340064 303 731 299.8659936 731 296 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 607 249 L 607 263" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 614 249 L 614 263" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="624.5" y="247.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="733.5" y="287.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 610 478 L 768 478 M 768 478 A 8 8 0 0 0 776 470 L 776 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 776 380 L 783 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 776 380 L 769 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 769 388 C 769 384.1340064 772.1340064 381 776 381 C 779.8659936 381 783 384.1340064 783 388 C 783 391.8659936 779.8659936 395 776 395 C 772.1340064 395 769 391.8659936 769 388 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 769 388 C 769 384.1340064 772.1340064 381 776 381 C 779.8659936 381 783 384.1340064 783 388 C 783 391.8659936 779.8659936 395 776 395 C 772.1340064 395 769 391.8659936 769 388 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 617 471 L 617 485" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 624 471 L 624 485" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="634.5" y="469.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="760.5" y="397.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 575 376 L 664 376 M 664 376 A 8 8 0 0 0 672 368 L 672 344 M 672 344 A 8 8 0 0 1 680 336 L 760 336" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 336 L 760 343" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 746 336 L 760 329" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 731 336 C 731 332.1340064 734.1340064 329 738 329 C 741.8659936 329 745 332.1340064 745 336 C 745 339.8659936 741.8659936 343 738 343 C 734.1340064 343 731 339.8659936 731 336 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 731 336 C 731 332.1340064 734.1340064 329 738 329 C 741.8659936 329 745 332.1340064 745 336 C 745 339.8659936 741.8659936 343 738 343 C 734.1340064 343 731 339.8659936 731 336 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 582 369 L 582 383" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 589 369 L 589 383" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="599.5" y="367.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="733.5" y="327.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="79" y="567" width="215.11962890625" height="120" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="72" y="560" width="215.11962890625" height="120"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 72 560 L 287.11962890625 560 L 287.11962890625 680 L 72 680 L 72 560 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 72 583 L 287.11962890625 583" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 100.05908203125 583 L 100.05908203125 680" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 190.96630859375 583 L 190.96630859375 680" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="153.908935546875" y="577.5">tAddress</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="601">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="601">addrId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="601">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="600.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="616">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="616">addrStrasse</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="616">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="615.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="631">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="631">addrNummer</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="631">INTEGER(5)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="630.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="646">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="646">addrPLZ</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="646">VARCHAR(10)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="645.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="661">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="661">addrOrt</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="661">VARCHAR(20)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="660.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="676">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="105.05908203125" y="676">addrLand</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="195.96630859375" y="676">CHAR(2)</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="675.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 287 620 L 376 620" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 362 620 L 376 627" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 362 620 L 376 613" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 347 620 C 347 616.1340064 350.1340064 613 354 613 C 357.8659936 613 361 616.1340064 361 620 C 361 623.8659936 357.8659936 627 354 627 C 350.1340064 627 347 623.8659936 347 620 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 347 620 C 347 616.1340064 350.1340064 613 354 613 C 357.8659936 613 361 616.1340064 361 620 C 361 623.8659936 357.8659936 627 354 627 C 350.1340064 627 347 623.8659936 347 620 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 294 613 L 294 627" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 301 613 L 301 627" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="311.5" y="611.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="349.5" y="611.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="997" y="474">Glossar</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="997" y="489">PK: PRIMARY KEY</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="997" y="504">FK: FOREIGN KEY</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="997" y="519">U: UNIQUE</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="423" y="951" width="199.46630859375" height="90" opacity="0.2"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><rect fill="#ffffff" stroke="none" x="416" y="944" width="199.46630859375" height="90"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 416 944 L 615.46630859375 944 L 615.46630859375 1034 L 416 1034 L 416 944 Z Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 416 967 L 615.46630859375 967" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 456.3291015625 967 L 456.3291015625 1034" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 548.68359375 967 L 548.68359375 1034" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="476.3427734375" y="961.5">tBestellungen</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="985">PK</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="461.3291015625" y="985">bestellId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="553.68359375" y="985">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="984.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="1000">FK,U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="461.3291015625" y="1000">buchId</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="553.68359375" y="1000">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="999.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="1015">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="461.3291015625" y="1015">bestellDatum</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="553.68359375" y="1015">DATE</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="1014.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="1030">U</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="461.3291015625" y="1030">bestellMenge</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="553.68359375" y="1030">INTEGER</text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="421" y="1029.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 615 992 L 896 992 M 896 992 A 8 8 0 0 0 904 984 L 904 366" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 911 373 L 897 373" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 911 380 L 897 380" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 629 992 L 615 985" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 629 992 L 615 999" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 630 992 C 630 988.1340064 633.1340064 985 637 985 C 640.8659936 985 644 988.1340064 644 992 C 644 995.8659936 640.8659936 999 637 999 C 633.1340064 999 630 995.8659936 630 992 Z"/></g>
+<g transform="translate(-62,-110) scale(1,1)"><path fill="none" stroke="#000000" d="M 630 992 C 630 988.1340064 633.1340064 985 637 985 C 640.8659936 985 644 988.1340064 644 992 C 644 995.8659936 640.8659936 999 637 999 C 633.1340064 999 630 995.8659936 630 992 Z" stroke-miterlimit="10"/></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="639.5" y="983.5"></text></g></g>
+<g transform="translate(-62,-110) scale(1,1)">
+	<g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="888.5" y="397.5"></text></g></g>
 </svg>
